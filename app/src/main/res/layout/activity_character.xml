@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:ignore="HardcodedText">
+
+    <TextView
+        android:id="@+id/name_label_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_label_text_view"
+        tools:text="Madrigal" />
+
+    <TextView
+        android:id="@+id/race_label_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Race"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameTextView" />
+
+    <TextView
+        android:id="@+id/raceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/race_label_text_view"
+        tools:text="Elf" />
+
+    <TextView
+        android:id="@+id/stats_label_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="stats"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/raceTextView" />
+
+    <TextView
+        android:id="@+id/wisdom_label_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="wisdom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stats_label_text_view" />
+
+    <TextView
+        android:id="@+id/wisdomTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/wisdom_label_text_view"
+        app:layout_constraintStart_toEndOf="@+id/wisdom_label_text_view"
+        app:layout_constraintTop_toTopOf="@+id/wisdom_label_text_view"
+        tools:text="16" />
+
+    <TextView
+        android:id="@+id/strength_label_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="strength"
+        app:layout_constraintStart_toEndOf="@+id/wisdomTextView"
+        app:layout_constraintTop_toTopOf="@+id/wisdom_label_text_view" />
+
+    <TextView
+        android:id="@+id/strengthTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/strength_label_text_view"
+        app:layout_constraintStart_toEndOf="@+id/strength_label_text_view"
+        app:layout_constraintTop_toTopOf="@+id/strength_label_text_view"
+        tools:text="16" />
+
+    <TextView
+        android:id="@+id/dexterity_label_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="dexterity"
+
+        app:layout_constraintStart_toEndOf="@+id/strengthTextView"
+        app:layout_constraintTop_toTopOf="@+id/wisdom_label_text_view" />
+
+    <TextView
+        android:id="@+id/dexterityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/dexterity_label_text_view"
+        app:layout_constraintStart_toEndOf="@+id/dexterity_label_text_view"
+        app:layout_constraintTop_toTopOf="@+id/dexterity_label_text_view"
+        tools:text="16" />
+
+    <Button
+        android:id="@+id/generateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Generate"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wisdomTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
