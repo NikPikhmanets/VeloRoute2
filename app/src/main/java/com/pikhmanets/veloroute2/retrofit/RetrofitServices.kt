@@ -1,4 +1,4 @@
-package com.pikhmanets.veloroute2.les.retrofit
+package com.pikhmanets.veloroute2.retrofit
 
 import retrofit2.Call
 import retrofit2.http.GET

@@ -5,8 +5,8 @@ import android.view.Menu
 import androidx.appcompat.app.AppCompatActivity
 import com.pikhmanets.veloroute2.R
 import com.pikhmanets.veloroute2.databinding.ActivityCharacterBinding
-import com.pikhmanets.veloroute2.les.retrofit.Common
-import com.pikhmanets.veloroute2.les.retrofit.RetrofitServices
+import com.pikhmanets.veloroute2.retrofit.Common
+import com.pikhmanets.veloroute2.retrofit.RetrofitServices
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

@@ -1,4 +1,4 @@
-package com.pikhmanets.veloroute2.les.retrofit
+package com.pikhmanets.veloroute2.retrofit
 
 
 object Common {

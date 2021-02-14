@@ -1,4 +1,4 @@
-package com.pikhmanets.veloroute2.les.retrofit
+package com.pikhmanets.veloroute2.retrofit
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
